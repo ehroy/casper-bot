@@ -1,40 +1,74 @@
-WARNING: DO NOT USE TURBO MODE 
+# CSPR FANS
 
-PERINGATAN DARURAT: JANGAN DI PAKAI KALAU TAKUT KENA BAN 
+## CSPR airdrop
 
-How to use ?
+➡️ Register : https://t.me/csprfans_bot/csprfans?startapp=246529008
 
-1. Buka src/data/tg-hash.txt
-2. Ambil telegram moonbix hash dari mana saja. Mau pakai method turn off data/ Inspect Element/ Session Storage/ LocalStorage.
-3. Buka https://www.urldecoder.org/
-   Decode dari poin nomor 2 dan salin dimulai dari query_id atau user dan berakhir di hash
+- Complete Task
 
-    Contoh:
+## BOT FEATURE
 
-    query_id=AAE7ww8sAAAAADvDDywPhkYE&user=%7B%22id%22%3A712230523%2C%22first_name%22%3A%22agcbo%F0%9F%A6%B4%22%2C%22last_name%22%3A%22%F0%9F%A6%B4%22%2C%22username%22%3A%22goavcod%22%2C%22language_code%22%3A%22en%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1726846235&hash=a914bcef77e85d3bd01bde0c6d2f547670e1be9411237c323a0354afd6b371ca
+- Multi Account With Proxy Support
+- Auto Complete task
 
-4. Buka src/data/usert-agents.txt
-5. Cari list user agent android dari internet, ambil yang banyak
+## Setup & Configure BOT
 
-    Contoh:
+### Linux & MAC OS & WINDOWS
 
-    Mozilla/5.0 (Linux; Android 10; SM-A705FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Mobile Safari/537.36
-    Mozilla/5.0 (Linux; Android 10; CPH2023) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Mobile Safari/537.36
+1. clone project repo
+   ```
+   git clone https://github.com/ehroy/casper-bot.git
+   ```
+   and cd to project dir
+   ```
+   cd carta-web3-bot
+   ```
+2. Run
+   ```
+   npm install
+   ```
+3. (If You Use Proxy) To configure the app, run
+   ```
+   proxy.txt format http://user@pass
+   ```
+   and add your proxy listh there.
+4. to start the app run
+   ```
+   node app
+   ```
 
-6. Buka src/config.js.
-   Jika true maka akan bermain secara cepat (HIGH RISK).
-   Sebaiknya atur ke false untuk bermain normal 45 detik.
+## Update Bot
 
-   Join @erdropkosong (telegram) untuk dapatkan user akses
+To update bot follow this step :
 
-7. Install package ketik npm i
+1. run
+   ```
+   git pull
+   ```
+   or
+   ```
+   git pull --rebase
+   ```
+   if error run
+   ```
+   git stash && git pull
+   ```
+2. run
+   ```
+   npm update
+   ```
+3. start the bot.
 
-8. Menjalankan script:
-    1. Pastikan terminal berada pada directory moonbix
-    2. Gunakan VPN atau apapun apabila koneksi terblokir
-    3. ketik npm start
-    4. Pilih mode.
-       *Manual: sesuai dengan namanya
-       *Auto: akan berjalan berulang setiap 1 jam sejak script dijalankan.
+## Setup Accounts
 
-DILARANG RECODE UNTUK DIKOMERSILKAN
+1. Run bot `node app`
+2. copy queryid account in auth.txt example "queryid=xxxxx"
+
+Feel free to fork and contribute adding more feature thanks. To get original unencrypted code just DM me on my social media original (index.js and src folder) are Obfuscated during build
+
+## SUPPORT
+
+want to support me for creating another bot ?
+**star** my repo or buy me a coffee ☕☕ on
+
+EVM : `0x3354b0D9d8d85b1c6E0BdD53283ea087CD35B2f4`
